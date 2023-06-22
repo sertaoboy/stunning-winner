@@ -26,11 +26,11 @@ cumprimentarPessoa('Raul')
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// funcao com RETURN e mais de um PARAMETRO -> lembrar que o js pode receber a quantidade de parametros necessaria, e os identifica pela ORDEM;
+// funcao com RETURN e mais de um PARAMETRO -> lembrar que o js pode receber a quantidade de parametros necessaria, e os identifica pela ORDEM;   //   parametros
 function operacaoMatematica (numI, numII, numIII) {
     return numI + numII + numIII
 }
-
+                              // argumentos
 console.log(operacaoMatematica(10, 20, 30))
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
