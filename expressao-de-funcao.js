@@ -1,17 +1,18 @@
-// declaracao de funcao
+// declaracao de funcao da forma classica
 function minhaFuncao(param) {
+    //bloco de codigo
     return 'param'
 }
 minhaFuncao('param')
-
+///////////////////////////////////////////////////////////
 
 // expressao de funcao
 const soma = function(num1, num2) {return num1 + num2}
 console.log (soma(1, 1))
-
+// parece a mesma coisa mas nem sempre e!
 ///////////////////////////////////////////////////////////
 //diferencas: -nao possui um nome da funcao -> 'anonima' - criou-se uma const pra depois nao atribuir nenhum valor a ela podendo apagar o codigo da function
-//    -encurta o codigo, a funcao fica localizada somente em uma linha, sem quebra.
+//    -encurta o codigo, a funcao fica localizada somente em uma linha, sem quebra.(boa pratica)
 //////////////////////////////////////////////////////////
 
 // diferenca principal ?????
