@@ -13,10 +13,10 @@ imprimeTexto("outro texto");  // reparar que as funcoes podem ter diversas aplic
 //REAPROVEITAMENTO DE CODIGO; se pode utilizar a mesma funcao varias vezes durante o codigo, evitando a repeticao desse bloco de codigo varias vezes (oque seria mais trabalhoso)
 
 
-// tres formas de escrever funcao:
+// tres formas de escrever funcao: obs:funcao sem parametro
 function soma(){   // Notar que neste exemplo a funcao nao recebeu qualquer parametro, diferente do 1o exemplo no qual o parametro seria a palavra "texto"
-    
-    return 2 + 2  // RETURN - em funcoes serve para neste exemplo retornar a soma de 2+2 para ai ser chamada na linha 22 atraves do console.log (funcao "imprimeTexto")
+    const resultadoExemploI = 2 + 2
+    return resultadoExemploI  // RETURN - em funcoes serve para neste exemplo retornar a soma de 2+2 para ai ser chamada na linha 22 atraves do console.log (funcao "imprimeTexto")
     // obs : a clausula "return" deve ser a ultima linha do bloco, para de fato retornar o que esta sendo especificado;; codigos escritos depois do retorno NAO SERAO EXECUTADAS!
 }
 soma()
