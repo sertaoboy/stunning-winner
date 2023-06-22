@@ -1,11 +1,11 @@
 let x = ""
 x = "oi";
-
-//1) declarar a funcao
+//primeiro momento abaixo
+//1) declaracao de funcao
 function imprimeTexto(texto){      //Para declarar funcoes utiliza-se a palavra-chave "function", colocamos o nome (oque ela faz). Em seguida usamos "()" que se chama PARAMETRO. Entre {} se encontra um BLOCO de codigo
     console.log(texto);
 }
-
+//segundo momento abaixo
 //2) executar a funcao (1 ou + vezes)
 imprimeTexto(x);
 imprimeTexto("outro texto");  // reparar que as funcoes podem ter diversas aplicacoes dependendo do codigo que sera escrito. Seguindo este exemplo notar que foi dada o atributo a "let" indefinido na 1a linha e na 2a se atribuiu o valor que na funcao "imprimeTexto" ela foi chamada.
